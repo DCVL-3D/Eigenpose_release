@@ -1,4 +1,4 @@
-Eigenpose: Occlusion-robust 3D Human Mesh Reconstruction
+This repository is an official Pytorch implementation of the paper "Eigenpose: Occlusion-robust 3D Human Mesh Reconstruction".
 
 # Eigenpose_release (The codes will be uploaded after the submitted paper is accepted)
 ## Results
