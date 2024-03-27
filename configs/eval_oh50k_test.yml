@@ -1,0 +1,21 @@
+ARGS:
+ tab: 'oh50k_test'
+ eval_dataset: 'oh50k_test'
+ GPUS: 0
+ model_version: 1
+ 
+ val_batch_size: 1
+ nw_eval: 2
+ eval: True
+ collision_aware_centermap: False
+ collision_factor: 0.2
+ calc_PVE_error: True
+
+ backbone: 'resnet'
+ centermap_size: 64
+ centermap_conf_thresh: 0.2
+ model_precision: 'fp32'
+ smpl_mesh_root_align: True
+
+ model_path: checkpoints/eigenpose_resnet.pkl
+ dataset_rootdir: #'/path/to/dataset/3DPW'
