@@ -1,7 +1,7 @@
 # Eigenpose_release
 This repository is an official Pytorch implementation of the paper "Eigenpose: Occlusion-robust 3D Human Mesh Reconstruction".
 
-## Installtion
+## Installation
 ### Environment Setting
 Please set the environment and datasets by following the guidance of [ROMP](https://github.com/Arthur151/ROMP).
 
